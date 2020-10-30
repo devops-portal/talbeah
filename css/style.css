@@ -1,5 +1,9 @@
 body, html {
   height: 100%;
+  overflow: auto;
+  padding: 0 0px;
+  display: block;
+  margin: 0;
 }
 
 
@@ -10,6 +14,10 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+ 
+}
+.talbeah-logo {
+  width: 575px;
 }
 p { 
   font-family: Pacifico; 
